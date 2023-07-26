@@ -28,7 +28,8 @@ func main(){
 	// replace
 	replaceTest := []int{3, 2, 4, 3, 1, 2,4,6}
 	fmt.Printf("replaceTest variable: %v\n", replaceTest)
-	replaceTest = slices.Replace(replaceTest, 3, 3, 10, 11, 12)
+	
+	replaceTest = slices.Replace(replaceTest, 3, 6, 10, 11, 12)
 	fmt.Printf("Replace: %v\n", replaceTest)
 
 	// Clone
